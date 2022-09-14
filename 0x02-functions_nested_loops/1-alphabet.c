@@ -1,16 +1,15 @@
 #include "main.h"
 \**
-*main to check codes.
+*main-to check the code
 *
-*Return: always 
+* Return:alwags 0.
 *\
 void print-alphabet(void)
-
 {
-    char c;
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        putchar (c);
-    }
-    putchar ('\n');
+	char c;
+	for (c ='a'; c <='z'; c++)
+	{
+		_putchar (c);
+	}
+        -putchar ('\n');
 }
