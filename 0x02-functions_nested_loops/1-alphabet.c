@@ -5,6 +5,7 @@
 *Return: always 
 *\
 void print-alphabet(void)
+
 {
     char c;
     for (c = 'a'; c <= 'z'; c++)
