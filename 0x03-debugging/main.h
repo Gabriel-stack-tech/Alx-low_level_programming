@@ -1,12 +1,9 @@
 #ifndef MAIN.H
-#defind MAIN.H
-
+#define MAIN.H
 #include <stdio.h>
-void posittion_or_negative(int)
+void position_or_negative(int i);
 int largest_number(int,int,int);
-void position_or_negative(int);
 void print_remaining_days(int,int,int);
 int convert_day(int,int);
 
-#endif /*MAIN.H*/
-c
+#endif /*main.h*/
