@@ -25,6 +25,7 @@ void print_number(int n)
 	{
 		ntemp /= 10;
 		++degree;
+	}
 	while (degree >= 1)
 	{
 		digit = (num / _pow(10, degree)) % 10;
