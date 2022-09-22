@@ -1,5 +1,4 @@
-#include "main.h"
-
+	#include "main.h"
 /**
  * _strcat - concatenate two strings
  * @dest: string to be copied to
