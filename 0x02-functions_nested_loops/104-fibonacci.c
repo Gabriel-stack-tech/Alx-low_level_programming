@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 
 /**
  * main - Prints the first 98 Fibonacci numbers
@@ -47,4 +47,5 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
+}
 
