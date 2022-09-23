@@ -1,15 +1,16 @@
 #include "main.h"
+
 /**
- * main to check code
- * main to print alphabet
- * Return: 
+ * print_alphabet - print function
+ * Description: print the alphabet in lower case
+ * Return: void
  */
-void print-alphabet(void)
+void print_alphabet(void)
 {
-    char c;
-    for ( c = 'a'; c <= 'z'; c++)
-    {
-        -putchar (c);
-    }
-    _putchar ('\n');
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		_putchar(ch);
+	_putchar('\n');
 }
+
