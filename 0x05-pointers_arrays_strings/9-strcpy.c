@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * *_strcpy - copies the string pointed to by src
@@ -9,7 +9,6 @@ nclude "main.h"
  *
  * Return: the pointer to dest
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int len, i;
@@ -29,3 +28,4 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
+
