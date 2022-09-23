@@ -1,5 +1,6 @@
-#ifndef MAIN.H
-#define MAIN.H
+
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
 void position_or_negative(int i);
 int largest_number(int,int,int);
